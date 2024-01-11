@@ -5,6 +5,13 @@ const motoList = [
 		year: 2022,
 		model: "S 1000 RR",
 		imageUrl: "http://www.lerepairedesmotards.com/img/essais/bmw/s1000rr/bmw-s1000-rr-statique-avant_hd.jpg",
+		prix: "20 740 €",
+		consommation: "6.3 L",
+		autonomie: "262 km",
+		couple: "11.5 mKg",
+		puissance: "210 ch",
+		Rapport_poids_puissance : "0.83 kg/ch",
+		vitesse : "303 km/h",
 	},
 	{
 		marque: "Ducati",
@@ -13,6 +20,13 @@ const motoList = [
 		model : "Panigale V4 R",
 		imageUrl:
 			"http://www.lerepairedesmotards.com/img/essais/ducati/panigale-v4/ducati-panigale-v4-r-profil_hd.jpg",
+		prix: "16 740 €",
+		consommation: "4.3 L",
+		autonomie: "262 km",
+		couple: "11.5 mKg",
+		puissance: "210 ch",
+		Rapport_poids_puissance : "0.83 kg/ch",
+		vitesse : "303 km/h",
 	},
 	{
 		marque: "Kawazaki",
@@ -21,14 +35,28 @@ const motoList = [
 		model : "H2R",
 		imageUrl:
 			"https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2014/10/359333-kawasaki-ninja-h2r-presenta-300-cv-turbo.jpg?tf=1200x",
+		prix: "55 000 €",
+		consommation: "8 L",
+		autonomie: "/ km",
+		couple: "16.8 mKg",
+		puissance: "310 ch",
+		Rapport_poids_puissance : "0.65 kg/ch",
+		vitesse : "400 km/h",
 	},
 	{
 		marque: "Suzuki",
 		logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Suzuki_logo_2.svg/2560px-Suzuki_logo_2.svg.png",
-		year: 2023,
+		year: 2021,
 		model : "GSX 1300 R Hayabusa",
 		imageUrl:
 			"https://www.motoplanete.com/suzuki/zoom-700px/Suzuki-GSX-1300-R-Hayabusa-2023-700px.webp",
+		prix: "18 499 €",
+		consommation: "7.1 L",
+		autonomie: "282 km",
+		couple: "15.3 mKg",
+		puissance: "190 ch",
+		Rapport_poids_puissance : "1.30 kg/ch",
+		vitesse : "299 km/h",
 	},
 	{
 		marque: "Aprilia",
@@ -37,6 +65,13 @@ const motoList = [
 		model: "RSV4-1100",
 		imageUrl:
 			"http://www.lerepairedesmotards.com/img/essais/aprilia/rsv4/aprilia-rsv4-factory-static.jpg",
+		prix: "55 000 €",
+		consommation: "/ L",
+		autonomie: "/ km",
+		couple: "/ mKg",
+		puissance: "225 ch",
+		Rapport_poids_puissance : "0.73 kg/ch",
+		vitesse : "310 km/h",
 	},
 	{
 		marque: "Yamaha",
@@ -45,6 +80,13 @@ const motoList = [
 		model: "R1M 1000",
 		imageUrl:
 			"https://live.staticflickr.com/65535/48283568557_ce484a9535_h.jpg",
+		prix: "25 999 €",
+		consommation: "7.2 L",
+		autonomie: "236 km",
+		couple: "11.60 mKg",
+		puissance: "200 ch",
+		Rapport_poids_puissance : "0.94 kg/ch",
+		vitesse : "300 km/h",
 	},
 	{
 		marque: "Triumph",
@@ -53,6 +95,13 @@ const motoList = [
 		model: "Speed triple 1200 rs",
 		imageUrl:
 			"https://static1.wrs.it/1316504-thickbox_default/akrapovic-titanium-slip-on-silencer-triumph-speed-triple-1200-rs-rr-2020-2023.jpg",
+		prix: "17 999 €",
+		consommation: "/ L",
+		autonomie: "224 km",
+		couple: "12.74 mKg",
+		puissance: "180 ch",
+		Rapport_poids_puissance : "0.99 kg/ch",
+		vitesse : "260 km/h",
 	},
 	{
 		marque: "Honda",
@@ -61,39 +110,31 @@ const motoList = [
 		model: "CBR1000RR-R",
 		imageUrl:
 			"https://images.caradisiac.com/images/3/4/4/0/183440/S0-rappel-general-pour-la-honda-cbr1000rr-r-631360.jpg",
+		prix: "21 999 €",
+		consommation: "6.25 L",
+		autonomie: "256 km",
+		couple: "11.60 mKg",
+		puissance: "217 ch",
+		Rapport_poids_puissance : "0.86 kg/ch",
+		vitesse : "300 km/h",
 	},
 	{
 		marque: "KTM",
 		logo: "https://cdn.worldvectorlogo.com/logos/ktm-logo-1.svg",
-		year: 2023,
+		year: 2024,
 		model: "1390 Super Duke R",
 		imageUrl: "https://kickstart.bikeexif.com/wp-content/uploads/2023/11/2024-ktm-1390-super-duke-r-2.jpg",
+		prix: "21 449 €",
+		consommation: "5.9 L",
+		autonomie: "297 km",
+		couple: "14.80 mKg",
+		puissance: "190 ch",
+		Rapport_poids_puissance : "1.05 kg/ch",
+		vitesse : "290 km/h",
 	},
 	
 ]
 
-const spec = [
-	{
-	prix: "20 740 €",
-	acceleration: "3.2s",
-	consommation: "6.3 L",
-	autonomie: "262 km",
-	couple: "11.5 mKg",
-	puissance: "210 ch",
-	Rapport_poids_puissance : "0.83 kg/ch",
-	vitesse : "303 km/h",
-	},
-	{
-		prix: "16 740 €",
-		acceleration: "1.2s",
-		consommation: "4.3 L",
-		autonomie: "262 km",
-		couple: "11.5 mKg",
-		puissance: "2010 ch",
-		Rapport_poids_puissance : "0.83 kg/ch",
-		vitesse : "303 km/h",
-		}
-]
 
 const gameContainer = document.querySelector(".row")
 const modalMarque = document.querySelector(".modal-marque")
@@ -153,7 +194,7 @@ const viewBtnArray = document.querySelectorAll(".view")
 // ratraper le button "edit"
 const editBtnArray = document.querySelectorAll(".edit")
 
-// ratraper le button "edit"
+// ratraper le button "spec"
 const specBtnArray = document.querySelectorAll(".spec")
 
 viewBtnArray.forEach((btn, index) => {
@@ -252,9 +293,7 @@ const addEditClick = () => {
 
 				const cardList = document.querySelectorAll(".card")
 				document.querySelectorAll(".card-marque")[indx].innerHTML = newMarque
-				document.querySelectorAll(".card-text")[
-					indx
-				].innerHTML = `Year: ${newYear} `
+				document.querySelectorAll(".card-text")[indx].innerHTML = `Year: ${newYear} `
 				document.querySelectorAll(".card-img-top")[indx].src = newImage
 			})
 		})
@@ -262,25 +301,28 @@ const addEditClick = () => {
 }
 
 specBtnArray.forEach((btn, index) => {
-	btn.addEventListener("click", () => {
-		modalMarque.textContent = "Spécifications"
-		modalBody.innerHTML += `<p>Prix : ${spec[index].prix}</p>`
-		modalBody.innerHTML += `<p>Accélération : ${spec[index].acceleration}</p>`
-		modalBody.innerHTML += `<p>Consommation : ${spec[index].consommation}</p>`
-		modalBody.innerHTML += `<p>Autonomie : ${spec[index].autonomie}</p>`
-		modalBody.innerHTML += `<p>Couple moteur : ${spec[index].couple}</p>`
-		modalBody.innerHTML += `<p>Rapport poids/puissance : ${spec[index].Rapport_poids_puissance}</p>`
-		modalBody.innerHTML += `<p>Puissance : ${spec[index].puissance}</p>`
-		modalBody.innerHTML += `<p>Vitesse : ${spec[index].vitesse}</p>`
-		modalFooter.innerHTML = `
+    btn.addEventListener("click", () => {
+        modalMarque.textContent = "Spécifications";
+        // Réinitialiser le contenu de modalBody à une chaîne vide
+        modalBody.innerHTML = "";
+        // Ajouter les nouvelles spécifications
+        modalBody.innerHTML += `<p>Prix : ${motoList[index].prix}</p>`;
+        modalBody.innerHTML += `<p>Consommation : ${motoList[index].consommation}</p>`;
+        modalBody.innerHTML += `<p>Autonomie : ${motoList[index].autonomie}</p>`;
+        modalBody.innerHTML += `<p>Couple moteur : ${motoList[index].couple}</p>`;
+        modalBody.innerHTML += `<p>Rapport poids/Puissance : ${motoList[index].Rapport_poids_puissance}</p>`;
+        modalBody.innerHTML += `<p>Puissance : ${motoList[index].puissance}</p>`;
+        modalBody.innerHTML += `<p>Vitesse : ${motoList[index].vitesse}</p>`;
+        modalFooter.innerHTML = `
             <button
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-            >Close
+            >
+            Close
             </button>
-        `
-	})
-})
+        `;
+    });
+});
 
 addEditClick()
