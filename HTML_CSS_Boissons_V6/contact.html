@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Compatibilité avec les navigateurs -->
+        <title> Boisson sucrés </title>
+        <link rel="stylesheet" href="CSS_Boisson.css">
+        <link rel="icon" type="image/png" href="Logo_icone.png"/>
+    </head>
+
+	<body>
+        <header class="header">
+            <nav class="container">
+                <a href="Logo_SiteWeb.png">
+                    <img src="Logo_SiteWeb.png" alt="logo du site"/>
+                </a>
+                <ul>
+                    <li>
+                        <a href="HTML_Boisson.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                    <br>
+                </ul>
+            </nav>
+        </header>
+		<main>
+			<section class="container contact">
+				<h2>Contact</h2>
+				<div class="contact_container">
+					<form>
+						<label for="fname">First name:</label><br />
+						<input type="text" id="fname" value="Bob" /><br />
+						<label for="lname">Last name:</label><br />
+						<input type="text" id="lname" value="Marley" /><br />
+						<label for="msg">Message:</label><br />
+						<textarea id="msg" cols="40" rows="20"></textarea><br />
+						<button type="submit">Submit</button>
+					</form>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10461.9652065897!2d2.0722879!3d49.0392814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6f5afe7c4fc61%3A0x9f0766e25f85f02a!2sEnsea!5e0!3m2!1sen!2sfr!4v1699626406742!5m2!1sen!2sfr"
+						width="600"
+						height="450"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<p>created by ENSEA prductions &copy;</p>
+			<div class="social">
+				<a
+					target="_blank"
+					href="https://www.facebook.com/p/Ensea-100057085645194/"
+				>
+					<i class="fa-brands fa-facebook"></i>
+				</a>
+				<a target="_blank" href="https://www.instagram.com/enseacergy/?hl=en">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+			</div>
+		</footer>
+	</body>
+</html>
